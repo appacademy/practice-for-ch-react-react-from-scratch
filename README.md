@@ -13,15 +13,15 @@ installation for apps that have multiple JS dependencies.
 
 ### Generating __package.json__ with `npm init`
 
-Much like Ruby's __Gemfile__, the Node Package Manager can be used with a manifest
-file that lists all of an app's JavaScript dependencies. This file is called
-__package.json__. While you can write this file by hand, NPM's CLI (Command Line
-Interface) significantly simplifies the process.
+Much like Ruby's __Gemfile__, the Node Package Manager can be used with a
+manifest file that lists all of an app's JavaScript dependencies. This file is
+called __package.json__. While you can write this file by hand, NPM's CLI
+(Command Line Interface) significantly simplifies the process.
 
 To initialize an app with NPM, first create a directory for your app--e.g.,
 __test/__. Then, `cd` into this directory and run the following command:
 
-```
+```sh
 npm init --yes
 ```
 
@@ -103,7 +103,7 @@ Now anyone who gets a copy of your app can download all its dependencies in one
 fell swoop by running the following from the app's directory (with no
 arguments):
 
-```
+```sh
 npm install
 ```
 
@@ -617,7 +617,8 @@ function Page({ topic }) {
 
 ### CSS
 
-Finally, add the following CSS to __src/App.css__ (which is imported into __App.jsx__):
+Finally, add the following CSS to __src/App.css__ (which is imported into
+__App.jsx__):
 
 ```css
 /* src/App.css */
